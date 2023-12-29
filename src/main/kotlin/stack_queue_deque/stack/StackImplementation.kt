@@ -5,8 +5,10 @@ fun main() {
     val stack = MyStack<Int>()
     stack.push(1)
     stack.push(4)
+    stack.push(7)
     stack.showItems()
-    println(stack.peek())
+    stack.peek()
+    stack.pop()
     stack.pop()
     stack.showItems()
 }
@@ -20,11 +22,15 @@ class MyStack<T> {
     }
 
     fun pop(): T {
-        return mutableList.removeFirst()
+        val popItem = mutableList.removeFirst()
+        println("PopItem: $popItem")
+        return popItem
     }
 
     fun peek(): T {
-        return mutableList.first()
+        val peek = mutableList.first()
+        println("Peek: $peek")
+        return peek
     }
 
     fun showItems() {
