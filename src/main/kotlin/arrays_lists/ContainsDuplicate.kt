@@ -9,10 +9,7 @@ class ContainsDuplicate : BaseQuestion<IntArray, Boolean>() {
     override val input: IntArray = intArrayOf(2, 3, 1, 4, 5, 1, 24, 2)
 
     override fun solution(): Boolean {
-        val numsSet = mutableSetOf<Int>()
-        for (i in input) {
-            numsSet.add(i)
-        }
+        val numsSet = input.toSet()
         return numsSet.size < input.size
     }
 }
