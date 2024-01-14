@@ -1,9 +1,9 @@
 package org.prmto
 
-import org.prmto.stack_queue_deque.stack.question.BaseballGame
+import org.prmto.hacker_rank.TimeConversion
 
 fun main() {
-    val question = BaseballGame()
+    val question = TimeConversion()
     println("Question ${question::class.simpleName}")
     println("Solution: ${question.solution()}")
 }
