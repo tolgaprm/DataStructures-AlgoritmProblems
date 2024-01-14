@@ -1,4 +1,4 @@
-package org.prmto.hacker_rank
+package org.prmto.hacker_rank.easy
 
 import org.prmto.base.BaseQuestion
 

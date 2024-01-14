@@ -1,6 +1,6 @@
 package org.prmto
 
-import org.prmto.hacker_rank.NumberLineJump
+import org.prmto.hacker_rank.easy.NumberLineJump
 
 fun main() {
     val question = NumberLineJump()
