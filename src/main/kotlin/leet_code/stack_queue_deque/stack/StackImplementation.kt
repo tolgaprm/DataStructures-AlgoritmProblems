@@ -1,4 +1,4 @@
-package org.prmto.stack_queue_deque.stack
+package org.prmto.leet_code.stack_queue_deque.stack
 
 fun main() {
     println("Stack Implementation")

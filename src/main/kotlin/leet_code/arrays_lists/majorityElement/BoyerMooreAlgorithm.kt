@@ -1,4 +1,4 @@
-package org.prmto.arrays_lists.majorityElement
+package org.prmto.leet_code.arrays_lists.majorityElement
 
 import org.prmto.base.BaseQuestion
 
