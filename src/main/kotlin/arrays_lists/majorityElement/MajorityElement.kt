@@ -4,6 +4,8 @@ import org.prmto.base.BaseQuestion
 
 // Majority element is the element that appears more than [n/2] times
 class MajorityElement : BaseQuestion<IntArray, Int>() {
+    override val questionUrl: String
+        get() = "https://leetcode.com/problems/majority-element/description/"
     override val input: IntArray
         get() = intArrayOf(2, 2, 1, 1, 1, 2, 2) // Majority element is 2
 

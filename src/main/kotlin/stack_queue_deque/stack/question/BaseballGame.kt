@@ -4,6 +4,9 @@ import org.prmto.base.BaseQuestion
 import java.util.*
 
 class BaseballGame : BaseQuestion<Array<String>, Int>() {
+    override val questionUrl: String
+        get() = "https://leetcode.com/problems/baseball-game/description/"
+
     override val input: Array<String> = arrayOf(
         "5", "2", "C", "D", "+"
     )

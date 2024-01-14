@@ -4,6 +4,7 @@ import org.prmto.base.BaseQuestion
 
 class BoyerMooreAlgorithm : BaseQuestion<IntArray, Int>() {
 
+    override val questionUrl: String = "https://leetcode.com/problems/majority-element/description/"
     override val input: IntArray
         get() = intArrayOf(2, 2, 1, 1, 1, 2, 2)
 
