@@ -1,9 +1,9 @@
 package org.prmto
 
-import org.prmto.leet_code.arrays_lists.easy.ValidAnagram
+import org.prmto.leet_code.arrays_lists.easy.TwoSum
 
 fun main() {
-    val question = ValidAnagram()
+    val question = TwoSum()
     println("Question ${question::class.simpleName}")
     println("Solution: ${question.solution()}")
 }
