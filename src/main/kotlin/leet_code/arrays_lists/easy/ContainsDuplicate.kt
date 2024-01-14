@@ -1,4 +1,4 @@
-package org.prmto.leet_code.arrays_lists
+package org.prmto.leet_code.arrays_lists.easy
 
 import org.prmto.base.BaseQuestion
 

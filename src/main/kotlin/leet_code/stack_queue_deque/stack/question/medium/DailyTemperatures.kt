@@ -1,4 +1,4 @@
-package org.prmto.leet_code.stack_queue_deque.stack.question
+package org.prmto.leet_code.stack_queue_deque.stack.question.medium
 
 import org.prmto.base.BaseQuestion
 import java.util.*
